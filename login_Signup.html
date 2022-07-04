@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+        src="https://kit.fontawesome.com/64d58efce2.js"
+        crossorigin="anonymous"
+    ></script>
+    <title>Sign In & Sign Up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="forms-container">
+            <div class="signin-sigup">
+                <form action="haldelar-sign-in.php" method="POST" class="sign-in-form">
+                    <h2 class="title">Sign in</h2>
+                    <div class="input-field">
+                        <i class="fas fa-user"></i>
+                        <input name="username" type="text" placeholder="Username">
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input name="pass" type="password" placeholder="Password">
+                    </div>
+                    <input type="submit" value="Login" class="btn soild">
+
+                    <p class="socil-txt">Or Sign in with social platfroms</p>
+                    <div class="social-media">
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-twiter"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-google"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </form>
+                <form action="haldelar-sign-up.php" method="POST" class="sign-up-form">
+                    <h2 class="title">Sign up</h2>
+                    <div class="input-field">
+                        <i class="fas fa-user"></i>
+                        <input name="username" type="text" placeholder="Username">
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-envelope"></i>
+                        <input name="email" type="text" placeholder="Email">
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input name="pass" type="password" placeholder="Password">
+                    </div>
+                    <input type="submit" value="Sign up" class="btn soild">
+
+                    <p class="socil-txt">Or Sign up with social platfroms</p>
+                    <div class="social-media">
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-twiter"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-google"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="panels-container">
+            <div class="panel left-panel">
+                <div class="content">
+                    <h3>New here</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus impedit quiden quibusdam?</p>
+                    <button class="btn transparent" id="sign-up-btn">Sign up</button>
+                </div>
+
+                <img src="img.log.svg" class="image" alt="Dex Logain">
+            </div>
+
+            <div class="panel right-panel">
+                <div class="content">
+                    <h3>One of us ?</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus impedit quiden quibusdam?</p>
+                    <button class="btn transparent" id="sign-in-btn">Sign in</button>
+                </div>
+
+                <img src="img.register.svg" class="image" alt="Rokit Ragistion">
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+    <!-- Code increes by live/server -->
+</body>
+</html>
